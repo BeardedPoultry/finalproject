@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+  background-color: rgba(151, 188, 204, 1);
+}
+header {
+  height: 80px;
+  width: auto;
+  text-align: right;
+}
+a {
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  color: white;
+}
+.portrait {
+  margin-left: 75%;
+}
+.logo {
+  height: 80px;
+}
+.dividers {
+  width: 5px;
+  height: 600px;
+  background-color: red;
+  display: inline-block;
+}
