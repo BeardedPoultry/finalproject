@@ -5,24 +5,28 @@ body {
 header {
   height: 80px;
   width: auto;
-  text-align: right;
 }
 a {
   font-family: 'Ubuntu', sans-serif;
   text-decoration: none;
-  margin-top: 20px;
-  display: inline-block;
+  display: block;
   color: white;
 }
 .portrait {
-  margin-left: 75%;
 }
 .logo {
   height: 80px;
+  margin-top: 15px;
+  margin-left: 15px;
+  position: relative;
+  padding-top: 10px;
 }
-.dividers {
-  width: 5px;
-  height: 600px;
-  background-color: red;
-  display: inline-block;
+ul {
+  margin-top: 0;
+}
+.slideshow {
+  background-color: green;
+  width: 1200px;
+  height: 800px;
+  margin-left: 15px;
 }
