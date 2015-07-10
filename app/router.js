@@ -7,7 +7,6 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('portfolio', function() {
-    this.route('portfolio');
     this.route('family');
     this.route('nature');
     this.route('mn');
@@ -15,11 +14,11 @@ Router.map(function() {
   });
 
   this.route('signin', function() {
-    this.route('signin');
+    this.route('create');
+    this.route('current');
   });
 
   this.route('about', function() {
-    this.route('about');
     this.route('blog');
   });
 });

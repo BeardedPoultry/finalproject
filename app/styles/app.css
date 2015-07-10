@@ -1,26 +1,35 @@
 body {
   margin: 0 auto;
+  background-color: rgba(151, 188, 204, 1);
 }
 header {
-  background-color: green;
-  height: 75px;
-  width: 100%;
-  text-align: right;
+  height: 100px;
 }
-a {
+.headerlink {
+  font-family: 'Ubuntu', sans-serif;
   text-decoration: none;
-  margin-top: 20px;
-  margin-right: 20px;
-  padding-top: 40px;
-  display: block;
   color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 25px;
+
 }
-#numberone {
-  width: 100px;
-  height: 200px;
-  background-color: yellow;
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-#dividers {
-  width: 5px;
-  background-color: red;
+
+.logo {
+  height: 80px;
+  margin-top: 15px;
+  margin-left: 15px;
+  position: relative;
+  padding-top: 10px;
+}
+.header-link-container {
+  width: calc(100% - 112px);
+  float: right;
+  text-align: right;
+  display: inline-block;
 }
