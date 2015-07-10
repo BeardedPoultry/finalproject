@@ -1,18 +1,21 @@
 body {
   margin: 0 auto;
-  background-color: rgba(151, 188, 204, 1);
+    background-color: rgba(254, 255, 153, .5);
 }
 header {
   height: 100px;
+  background-color: rgba(151, 188, 204, 1);
 }
 .headerlink {
   font-family: 'Ubuntu', sans-serif;
   text-decoration: none;
+  background-color: rgba(203, 224, 159, 1);
   color: white;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 25px;
-
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 15px;
+  border-radius: 15px;
+  bord
 }
 .clearfix::after {
   content: "";
@@ -21,9 +24,9 @@ header {
 }
 
 .logo {
-  height: 80px;
-  margin-top: 15px;
-  margin-left: 15px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 10px;
   position: relative;
   padding-top: 10px;
 }
@@ -32,4 +35,26 @@ header {
   float: right;
   text-align: right;
   display: inline-block;
+  margin-top: 50px;
+}
+.family-page-photo,
+.main-page-photo,
+.nature-page-photo {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 7px;
+}
+#top-photo {
+  margin-top: 1%;
+}
+#main-index-photo {
+  margin-top: 1%;
+  height:auto;
+}
+hr {
+  width: 97%;
+  background-color: rgba(71, 121, 72, 1);
+  border-radius: 75%;
+  height: 5px;
 }

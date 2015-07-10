@@ -1,7 +1,11 @@
-<h2>Test</h2>
-{{#link-to "portfolio.family"}}Family{{/link-to}}
-<h2>Test</h2>
-{{#link-to "portfolio.mn"}}Maternity & Newborn{{/link-to}}
-{{#link-to "portfolio.nature"}}Nature{{/link-to}}
-{{#link-to "portfolio.special-event"}}Special Events{{/link-to}}
+<header>
+  <img class="logo"src="assets/images/Liggett.png" alt="" />
+  <div class="header-link-container">
+  {{#link-to "portfolio.family" class="headerlink"}}Family{{/link-to}}
+  {{#link-to "portfolio.mn" class="headerlink"}}Maternity & Newborn{{/link-to}}
+  {{#link-to "portfolio.nature" class="headerlink"}}Nature{{/link-to}}
+  {{#link-to "portfolio.special-event" class="headerlink"}}Special Events{{/link-to}}
+  {{#link-to "index" class="headerlink"}}Main{{/link-to}}
+  </div>
+</header>
 {{outlet}}
