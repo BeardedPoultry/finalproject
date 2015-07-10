@@ -17,6 +17,11 @@ Router.map(function() {
   this.route('signin', function() {
     this.route('signin');
   });
+
+  this.route('about', function() {
+    this.route('about');
+    this.route('blog');
+  });
 });
 
 export default Router;
