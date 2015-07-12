@@ -4,7 +4,9 @@ body {
 }
 header {
   height: 100px;
+  width:100%;
   background-color: rgba(151, 188, 204, 1);
+  position: fixed;
 }
 .headerlink {
   font-family: 'Ubuntu', sans-serif;
@@ -51,6 +53,11 @@ header {
 #main-index-photo {
   margin-top: 1%;
   height:auto;
+}
+.portfolio-heading {
+  height: 800px;
+  margin-left:15%;
+  margin-right: 15%;
 }
 hr {
   width: 97%;
