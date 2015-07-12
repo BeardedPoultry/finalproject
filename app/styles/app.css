@@ -5,6 +5,7 @@ body {
 header {
   height: 100px;
   width:100%;
+  margin-bottom: 15px;
   background-color: rgba(151, 188, 204, 1);
   position: fixed;
 }
@@ -40,8 +41,8 @@ header {
   margin-top: 50px;
 }
 .family-page-photo,
-.main-page-photo,
-.nature-page-photo {
+.nature-page-photo,
+.main-index {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
@@ -51,13 +52,14 @@ header {
   margin-top: 1%;
 }
 #main-index-photo {
-  margin-top: 1%;
-  height:auto;
+  margin-top: 115px;
+  border-radius: 7px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
 }
 .portfolio-heading {
   height: 800px;
-  margin-left:15%;
-  margin-right: 15%;
 }
 hr {
   width: 97%;
