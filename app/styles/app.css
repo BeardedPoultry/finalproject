@@ -25,7 +25,6 @@ header {
   display: table;
   clear: both;
 }
-
 .logo {
   height: 60px;
   margin-top: 10px;
@@ -60,10 +59,47 @@ header {
 }
 .portfolio-heading {
   height: 800px;
+  width:80%;
+  margin-top: 110px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 hr {
   width: 97%;
   background-color: rgba(71, 121, 72, 1);
   border-radius: 75%;
   height: 5px;
+}
+.about-myself {
+  text-align: right;
+  text-decoration: underline;
+}
+.about-me-intro {
+  margin-top: 115px;
+  position: absolute;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.about-me-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-right: 40%;
+
+}
+.login-screen {
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 30%;
+  border-color: rgba(86, 54, 31, .5);
+  border-width: 5px;
+  border-style: solid;
+}
+button {
+  width: 50px;
+  background-color: rgba(151, 188, 204, 1);
+  height: 20px;
+  margin-bottom: 10px;
 }
