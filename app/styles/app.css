@@ -8,6 +8,9 @@ header {
   margin-bottom: 15px;
   background-color: rgba(151, 188, 204, 1);
   position: fixed;
+  border-bottom-color: rgba(203, 224, 159, 1);
+  border-bottom-style: inset;
+  border-bottom-width: 5px;
 }
 .headerlink {
   font-family: 'Ubuntu', sans-serif;
@@ -79,6 +82,11 @@ hr {
   position: absolute;
   margin-left: 5%;
   margin-right: 5%;
+  color: rgba(86, 54, 31, 1);
+  background-color: rgba(71, 121, 72, .5);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 .about-me-pic {
   height: 100px;
@@ -102,4 +110,13 @@ button {
   background-color: rgba(151, 188, 204, 1);
   height: 20px;
   margin-bottom: 10px;
+}
+h1 {
+  margin: 0;
+}
+.booking-information {
+  margin-top: 115px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(151, 188, 204, 1);
 }

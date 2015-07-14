@@ -1,0 +1,21 @@
+<header class="clearfix">
+  <img class="logo"src="assets/images/Liggett.png" alt="" />
+  <div class="header-link-container">
+    {{#link-to "portfolio" class="headerlink"}}Portfolio{{/link-to}}
+    {{#link-to "about" class="headerlink"}}About Me{{/link-to}}
+    {{#link-to "signin" class="headerlink"}}Sign In{{/link-to}}
+  </div>
+</header>
+  <div class="booking-information">
+    <h1>Booking information</h1>
+    <p>
+      Your email address for contact purposes
+    </p>
+    <input type="text" name="email-entry" value="" placeholder="Email Address">
+    <h2>First Name</h2>
+    <input type="text" name="first-name" value="" placeholder="First Name">
+    <h2>Last Name</h2>
+    <input type="text" name="last-name" value="" placeholder="Last Name">
+
+  </div>
+{{outlet}}

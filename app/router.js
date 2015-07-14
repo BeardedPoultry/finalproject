@@ -21,6 +21,8 @@ Router.map(function() {
   this.route('about', function() {
     this.route('blog');
   });
+  this.route('booking', function() {
+  });
 });
 
 export default Router;
