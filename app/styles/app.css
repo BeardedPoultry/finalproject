@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
-    background-color: rgba(254, 255, 153, .5);
+  background-color: rgba(254, 255, 153, .5);
+
 }
 header {
   height: 100px;
@@ -8,6 +9,17 @@ header {
   margin-bottom: 15px;
   background-color: rgba(151, 188, 204, 1);
   position: fixed;
+  top: 0;
+  border-bottom-color: rgba(203, 224, 159, 1);
+  border-bottom-style: inset;
+  border-bottom-width: 5px;
+}
+#problem-pages {
+  height: 100px;
+  width:100%;
+  margin-bottom: 15px;
+  background-color: rgba(151, 188, 204, 1);
+  /*position: fixed;*/
   border-bottom-color: rgba(203, 224, 159, 1);
   border-bottom-style: inset;
   border-bottom-width: 5px;
@@ -21,7 +33,6 @@ header {
   margin-right: 3%;
   padding: 15px;
   border-radius: 15px;
-  bord
 }
 .clearfix::after {
   content: "";
@@ -45,9 +56,9 @@ header {
 .family-page-photo,
 .nature-page-photo,
 .main-index {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
   border-radius: 7px;
 }
 #top-photo {
@@ -89,8 +100,8 @@ hr {
   padding-top: 10px;
 }
 .about-me-pic {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   margin-left: 40%;
   margin-right: 40%;
@@ -110,13 +121,14 @@ button {
   background-color: rgba(151, 188, 204, 1);
   height: 20px;
   margin-bottom: 10px;
+  /*margin-top: 10px;*/
 }
-h1 {
+/*h1 {
   margin: 0;
-}
+}*/
 .booking-information {
   margin-top: 115px;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: rgba(151, 188, 204, 1);
+  background-color: rgba(190, 216, 244, 1);
 }

@@ -1,9 +1,22 @@
+<header class="clearfix problem" id="problem-pages">
+  <img class="logo"src="assets/images/Liggett.png" alt="" />
+  <div class="header-link-container">
+    {{#link-to "portfolio" class="headerlink"}}Portfolio{{/link-to}}
+    {{#link-to "about.blog" class="headerlink"}}Blog{{/link-to}}
+    {{#link-to "index" class="headerlink"}}Main{{/link-to}}
+    {{#link-to "booking" class="headerlink"}}Booking{{/link-to}}
+    {{#link-to "signin" class="headerlink"}}Sign In{{/link-to}}
+  </div>
+</header>
 <div class="login-screen">
   <h2>Username</h2>
   <input type="text" name="username" value="" placeholder="Username">
   <h2>Password</h2>
   <input type="text" name="name" value="" placeholder="Password">
-  <button type="button" name="login-button">Login</button>
-  <button type="button" name="reset-password-button" >Reset</button>
+  <div class="button-container">
+    <button type="button" name="login-button">Login</button>
+    <button type="button" name="reset-password-button" >Reset</button>
+  </div>
+
 </div>
 {{outlet}}
