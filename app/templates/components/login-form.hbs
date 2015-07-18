@@ -1,0 +1,12 @@
+<form class="login-screen" {{action 'authenticate' on 'submit'}}>
+  <h2>Username</h2>
+  {{input type="text" name="username" value=identification placeholder="Username"}}
+  <h2>Password</h2>
+  {{input type="text" name="password" value=password placeholder="Password"}}
+  <button class="submit" type="button" name="login-button">Login</button>
+  <button {{action 'new-user'}} class="create-user" classNames="md-primary" type="button" name="new-user">Sign up</button>
+  <div class="button-container">
+
+
+  </div>
+</form>

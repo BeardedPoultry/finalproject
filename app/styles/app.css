@@ -24,6 +24,10 @@ button {
   margin-left: 15%;
   margin-right: 15%;
 }
+.placeholder-text {
+  margin-top: 115px;
+}
+
 /* media screen request size */
 /* Styling for Desktop Size*/
 @media all and (min-width: 520px) {

@@ -14,8 +14,24 @@ module.exports = function(environment) {
     },
 
     APP: {
-      // Here you can pass flags/options to your application instance
-      // when it is created
+      applicationId: 'oCUutpKcGnFnI2RpTXxjntHR5jWLyf2H5ZgspVdr',
+      restApiId: 'JI0iHSJHeF2mN2igGwhTEZSgoqRzHUUnctAbplPZ'
+    },
+
+    contentSecurityPolicy: {
+      'default-src': "'none'",
+      'script-src': "'self'",
+      'font-src': "'self'",
+      'connect-src': "'self' api.parse.com",
+      'img-src': "'self'",
+      'media-src': "'self'"
+    },
+
+    'simple-auth': {
+      routeAfterAuthentication: 'users.current',
+      routeIfAlreadyAuthenticated: 'users.current',
+      authorizer: 'authorizer:parse',
+      crossOriginWhitelist: ['https://api.parse.com']
     }
   };
 

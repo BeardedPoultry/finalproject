@@ -11,6 +11,7 @@ Router.map(function() {
     this.route('nature');
     this.route('mn');
     this.route('special-event');
+    this.route('portfolio');
   });
 
   this.route('signin', function() {
@@ -22,6 +23,16 @@ Router.map(function() {
     this.route('blog');
   });
   this.route('booking', function() {
+  });
+
+  this.route('sessions', function() {
+    this.route('login-form');
+    this.route('logout');
+  });
+
+  this.route('users', function() {
+    this.route('current');
+    this.route('create');
   });
 });
 

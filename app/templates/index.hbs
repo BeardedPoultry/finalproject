@@ -3,7 +3,12 @@
   <div class="header-link-container">
     {{#link-to "portfolio" class="headerlink"}}Portfolio{{/link-to}}
     {{#link-to "about" class="headerlink"}}About Me{{/link-to}}
-    {{#link-to "signin" class="headerlink"}}Sign In{{/link-to}}
+    {{#if session.isAuthenticated}}
+      <button type="button" class="headerlink" name="sign-out" {{action 'invalidateSession'}}>Signout</button>
+    {{else}}
+      {{#link-to "signin" class="headerlink"}}Sign In{{/link-to}}
+    {{/if}}
+
   </div>
 </header>
 <img class="main-page-photo" src="assets/images/Edit-3048.jpg" alt="" />
