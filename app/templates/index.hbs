@@ -4,7 +4,7 @@
     {{#link-to "portfolio.index" class="headerlink"}}Portfolio{{/link-to}}
     {{#link-to "about" class="headerlink"}}About Me{{/link-to}}
     {{#if session.isAuthenticated}}
-      <button type="button" class="headerlink" name="sign-out" {{action 'invalidateSession'}}>Signout</button>
+      {{#link-to "users.current" class="headerlink"}}Profile{{/link-to}}
     {{else}}
       {{#link-to "signin" class="headerlink"}}Sign In{{/link-to}}
     {{/if}}

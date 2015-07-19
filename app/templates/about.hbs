@@ -4,8 +4,11 @@
     {{#link-to "portfolio" class="headerlink"}}Portfolio{{/link-to}}
     {{#link-to "about.blog" class="headerlink"}}Blog{{/link-to}}
     {{#link-to "index" class="headerlink"}}Main{{/link-to}}
-    {{#link-to "booking" class="headerlink"}}Booking{{/link-to}}
-    {{#link-to "signin" class="headerlink"}}Sign In{{/link-to}}
+    {{#if session.isAuthenticated}}
+      <button type="button" class="headerlink" name="sign-out" {{action 'invalidateSession'}}>Signout</button>
+    {{else}}
+      {{#link-to "signin" class="headerlink"}}Sign In{{/link-to}}
+    {{/if}}
   </div>
 </header>
 
@@ -15,6 +18,6 @@
   <p>
      My name is Emelee Liggett and I have been interested in photography for many years. I have always been the one walking around with the camera on vacations, family events, and outings so a natural step was to take my passion and offer it to others. Of all genres of photography, maternity and newborn would be my absolute favorite followed closely by those precious toddler years. I also enjoy capturing photos of families as they interact, engagement sessions, and special events near the holidays. As a hobby I also photograph the beauty of nature, my three children, and of course the many cats we have living with us. At this time I photograph on location and employ the use of natural lighting whenever possible. I look forward to getting to know you and capturing those special moments in you and your family's life.
   </p>
-  
+
 </div>
 {{outlet}}
