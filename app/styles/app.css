@@ -27,7 +27,13 @@ button {
 .placeholder-text {
   margin-top: 115px;
 }
-
+.user-login-splash {
+  margin-top: 115px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: black;
+  position: relative;
+}
 /* media screen request size */
 /* Styling for Desktop Size*/
 @media all and (min-width: 520px) {
@@ -53,7 +59,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     background-color: rgba(151, 188, 204, 1);
     text-align: center;
   }
@@ -161,7 +167,7 @@ button {
 @media all and (max-width: 519px) {
   body {
     margin: 0 auto;
-    background: rgba(71, 121, 72, 1);
+    background: rgba(71, 121, 72, .6);
   }
   header {
     height: 100px;

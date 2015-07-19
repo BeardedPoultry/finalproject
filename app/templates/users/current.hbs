@@ -1,2 +1,15 @@
-<h1>Hi {{model.name}}</h1>
+<header class="clearfix">
+  <img class="logo"src="assets/images/Liggett.png" alt="" />
+  <div class="header-link-container">
+    <button type="button" class="headerlink" name="sign-out" {{action 'invalidateSession'}}>Signout</button>
+  </div>
+</header>
+<div class="user-login-splash">
+  <h1>Welcome {{model.name}}</h1>
+  <h3>Click below to access booking for an appointment.</h3>
+  {{#link-to "booking" class=""}}Booking{{/link-to}}
+  <h4>Here is my portfolio </h4>
+  {{#link-to "portfolio" class="headerlink"}}Portfolio{{/link-to}}
+</div>
+
 {{outlet}}
