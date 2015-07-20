@@ -1,2 +1,10 @@
-
+<form class="login-screen" {{action 'createUser' on='submit'}}>
+  <h2>Username</h2>
+  {{input type="text" name="username" value=model.username placeholder="Username"}}
+  <h2>Password</h2>
+  {{input type="password" name="password" value=model.password placeholder="Password"}}
+  <button class="submit" type="button" name="login-button">Sign Up</button>
+  <div class="button-container">
+  </div>
+</form>
 {{yield}}

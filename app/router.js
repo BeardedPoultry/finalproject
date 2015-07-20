@@ -14,21 +14,12 @@ Router.map(function() {
     this.route('portfolio');
   });
 
-  this.route('signin', function() {
-    this.route('create');
-    this.route('current');
-  });
-
   this.route('about', function() {
     this.route('blog');
   });
   this.route('booking', function() {
   });
-
-  this.route('sessions', function() {
-    this.route('login-form');
-    this.route('logout');
-  });
+  this.route('login');
 
   this.route('users', function() {
     this.route('current');
