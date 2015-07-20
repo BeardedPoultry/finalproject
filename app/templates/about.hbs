@@ -5,9 +5,9 @@
     {{#link-to "about.blog" class="headerlink"}}Blog{{/link-to}}
     {{#link-to "index" class="headerlink"}}Main{{/link-to}}
     {{#if session.isAuthenticated}}
-      <button type="button" class="headerlink" name="sign-out" {{action 'invalidateSession'}}>Signout</button>
+      <button type="button" class="headerlink-button" name="sign-out" {{action 'invalidateSession'}}>Signout</button>
     {{else}}
-      {{#link-to "signin" class="headerlink"}}Sign In{{/link-to}}
+      {{#link-to "login" class="headerlink"}}Sign In{{/link-to}}
     {{/if}}
   </div>
 </header>
