@@ -17,8 +17,7 @@ Router.map(function() {
   this.route('about', function() {
     this.route('blog');
   });
-  this.route('booking', function() {
-  });
+  this.route('booking');
   this.route('login');
 
   this.route('users', function() {
