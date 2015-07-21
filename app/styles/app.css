@@ -264,6 +264,13 @@ button {
     font-size: 1em;
     border: none;
   }
+  .link-to-booking {
+  text-decoration: none;
+  }
+  .past-requests {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
   .headerlink::hover {
     background-color: red;
     cursor: pointer;
