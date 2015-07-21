@@ -1,11 +1,12 @@
 <header class="clearfix">
-  <img class="logo"src="assets/images/Liggett.png" alt="" />
+  <img class="logo" src="assets/images/Liggett.png" alt="" />
   <div class="header-link-container">
     <button type="button" class="headerlink-button" name="sign-out" {{action 'invalidateSession'}}>Signout</button>
   </div>
 </header>
 <div class="user-login-splash">
   <h1>Welcome {{model.name}}</h1>
+  <h1 class="animated pulse">Example</h1>
   <h3>Click below to access booking for an appointment.</h3>
   {{#link-to "booking" class="link-to-booking"}}Booking{{/link-to}}
   <h4>Here is my portfolio </h4>

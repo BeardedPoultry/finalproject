@@ -1,4 +1,11 @@
-
+.booking-header {
+  text-align: center;
+  margin-bottom: 0;
+}
+.booking-divider {
+  width: 90%;
+  margin: 0 auto;
+}
 .login-screen {
   text-align: center;
   margin-left: 35%;
@@ -95,8 +102,8 @@ button {
     font-size: 1em;
     border: none;
   }
-  .headerlink::hover {
-    background-color: yellow;
+  .headerlink:hover {
+    background-color: rgba(71, 121, 72, 1);
   }
   .clearfix::after {
     content: "";
@@ -271,8 +278,8 @@ button {
     margin-left: 15px;
     margin-right: 15px;
   }
-  .headerlink::hover {
-    background-color: red;
+  .headerlink:hover {
+    background-color: rgba(71, 121, 72, 1);
     cursor: pointer;
   }
   .clearfix::after {
@@ -383,8 +390,38 @@ button {
     margin-right: 5%;
     background-color: rgba(190, 216, 244, 1);
   }
+  .contact {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    text-align: center;
+  }
+  .booking-header {
+    text-align: center;
+  }
+  .bdc {
+    margin-top: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+  }
+  .contact-purposes {
+    padding-left: 15px;
+  }
   .booking-example {
     width:300px;
   }
-
+  .email-field {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  }
+  .first-name-div {
+    width: 50%;
+    display: inline-block;
+  }
+  .last-name-div {
+    float: right;
+    width: 50%;
+  }
 }
