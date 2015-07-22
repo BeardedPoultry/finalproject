@@ -39,6 +39,34 @@ button {
   color: black;
   position: relative;
 }
+#profile-name {
+  text-align: center;
+}
+.link-to-booking {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url('/assets/images/Edit-4588.jpg');
+  padding-top: 22px;
+  padding-bottom: 22px;
+  height: 60px;
+  width: 400px;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 15px;
+}
+.link-to-portfolio {
+  font-family: 'Ubuntu', sans-serif;
+  /*background-image: url('/assets/images/');*/
+  background-color: rgba(226, 226, 226, 1);
+  padding-top: 22px;
+  padding-bottom: 22px;
+  height: 60px;
+  width: 400px;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 15px;
+}
 /* media screen request size */
 /* Styling for Desktop Size*/
 @media all and (min-width: 520px) {

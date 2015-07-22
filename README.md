@@ -1,7 +1,17 @@
 # Finalproject
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a web application for the usage and demonstration of the photography skills that the requestor possesses. the web application has user login and the ability to send the requested booking information to a server-side database that stores the requested date information in reference to the shoot. It features several different styles of shoots that she has done and completed. You can create a basic profile with the site.
+
+API's used:
+  parse
+  ember simple auth
+
+-Stretch
+  mailgun
+  cloud code
+
+#Present Stretch Goals
 
 ## Prerequisites
 
@@ -50,4 +60,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-

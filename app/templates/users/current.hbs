@@ -5,12 +5,12 @@
   </div>
 </header>
 <div class="user-login-splash">
-  <h1>Welcome {{model.name}}</h1>
-  <h1 class="animated pulse">Example</h1>
+  <h1 class="animated pulse" id="profile-name">Welcome {{model.name}}!</h1>
+
   <h3>Click below to access booking for an appointment.</h3>
   {{#link-to "booking" class="link-to-booking"}}Booking{{/link-to}}
   <h4>Here is my portfolio </h4>
-  {{#link-to "portfolio" class="link-to-booking"}}Portfolio{{/link-to}}
+  {{#link-to "portfolio" class="link-to-portfolio"}}Portfolio{{/link-to}}
 </div>
 <div class="past-requests">
   <h6>Name of requestor</h6>
