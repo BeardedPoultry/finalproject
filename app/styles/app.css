@@ -67,6 +67,18 @@ button {
   padding-top: 15px;
   border-radius: 15px;
 }
+.profile-picture {
+  height:300px;
+  width:300px;
+  border-radius: 50%;
+}
+.booking-information {
+  text-align: center;
+}
+.current-user-align {
+  text-align: center;
+}
+
 /* media screen request size */
 /* Styling for Desktop Size*/
 @media all and (min-width: 520px) {

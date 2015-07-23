@@ -4,17 +4,19 @@
     <button type="button" class="headerlink-button" name="sign-out" {{action 'invalidateSession'}}>Signout</button>
   </div>
 </header>
-<div class="user-login-splash">
-  <h1 class="animated pulse" id="profile-name">Welcome {{model.name}}!</h1>
+<div class="current-user-align">
+  <div class="user-login-splash">
+    <img class="profile-picture" src="http://lorempixel.com/output/people-q-c-640-480-1.jpg" alt="" />
+    <h1 class="animated pulse" id="profile-name">Welcome {{model.name}}!</h1>
 
-  <h3>Click below to access booking for an appointment.</h3>
-  {{#link-to "booking" class="link-to-booking"}}Booking{{/link-to}}
-  <h4>Here is my portfolio </h4>
-  {{#link-to "portfolio" class="link-to-portfolio"}}Portfolio{{/link-to}}
+    <h3>Click below to access booking for an appointment.</h3>
+    {{#link-to "booking" class="link-to-booking"}}Booking{{/link-to}}
+    <h4>Here is my portfolio </h4>
+    {{#link-to "portfolio" class="link-to-portfolio"}}Portfolio{{/link-to}}
+  </div>
+  <div class="past-requests">
+    <h6>Name of requestor</h6>
+    <h6>{{model.firstName}} {{model.lastName}}</h6>
+  </div>
 </div>
-<div class="past-requests">
-  <h6>Name of requestor</h6>
-  <h6>{{model.firstName}} {{model.lastName}}</h6>
-</div>
-
 {{outlet}}
