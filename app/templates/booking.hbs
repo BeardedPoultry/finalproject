@@ -21,6 +21,10 @@
       <h2>Last Name</h2>
       {{input type="text" name="last-name" value=model.lastName placeholder="Last Name"}}
     </div>
+    <div class="party-size-div">
+      <h2>Size of party</h2>
+      {{input type="text" name="party-size" value=model.partySize placeholder="Number of People"}}
+    </div>
     <h2>Phone number that I can reach you at?</h2>
     {{input type="text" name="phone-number" value=model.phoneNumber placeholder="(555)555-5555"}}
     <h2>How did you hear of me?</h2>
@@ -32,7 +36,7 @@
       </select>
     <h2>Detail the specifics below please.</h2>
     <textarea name="name" value=model.bookingDetails rows="8" cols="60" placeholder="What types of shots are you wanting.."></textarea>
-    <button type="submit-booking-information" name="Submit" {{action "createBooking" model}}></button>
+    <button type="submit-booking-information" name="Submit" {{action "createBooking" model}}>Submit Information to Request Appointment</button>
 
   </div>
 {{outlet}}
