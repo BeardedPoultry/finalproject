@@ -45,15 +45,13 @@ button {
 .link-to-booking {
   font-family: 'Ubuntu', sans-serif;
   background-image: url('/assets/images/Edit-4588.jpg');
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 42px;
   height: 60px;
   width: 40%;
   margin-left: 30%;
   margin-right: 30%;
   display: block;
   text-align: center;
-  padding-top: 15px;
   border-radius: 15px;
   color: rgba(255, 114, 96, 1);
   text-decoration: none;
@@ -180,9 +178,11 @@ button {
     height: 50px;
     font-size: 1em;
     border: none;
+    text-decoration: none;
   }
   .headerlink:hover {
     background-color: rgba(71, 121, 72, 1);
+    text-decoration: none;
   }
   .clearfix::after {
     content: "";
@@ -293,16 +293,12 @@ button {
   .booking-example {
     width:300px;
   }
-  .first-name-div {
+  .first-name-div,
+  .last-name-div,
+  .party-size-div {
     width: 33%;
     display: inline-block;
   }
-  .last-name-div,
-  .party-size-div {
-    float: right;
-    width: 33%;
-  }
-
 }
 /* Styling for Mobile Size*/
 
