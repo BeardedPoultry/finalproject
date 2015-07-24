@@ -2,7 +2,9 @@
   <img class="logo"src="assets/images/Liggett.png" alt="" />
   <div class="header-link-container">
     {{#link-to "portfolio" class="headerlink"}}Portfolio{{/link-to}}
+    {{#if session.isAuthenticated}}
     {{#link-to "booking" class="headerlink"}}Booking{{/link-to}}
+    {{/if}}
     {{#link-to "index" class="headerlink"}}Main{{/link-to}}
     {{#if session.isAuthenticated}}
       <button type="button" class="headerlink-button" name="sign-out" {{action 'invalidateSession'}}>Signout</button>

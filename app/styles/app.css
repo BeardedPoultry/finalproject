@@ -56,25 +56,29 @@ button {
   color: rgba(255, 114, 96, 1);
   text-decoration: none;
   background-position: 0px 0px, center;
+  border-style: solid;
+  border-color: rgba(18, 151, 147, 1);
+  border-width: 5px
 }
 .link-to-portfolio {
   font-family: 'Ubuntu', sans-serif;
   /*background-image: url('/assets/images/');*/
   background-color: rgba(226, 226, 226, 1);
   background-image: url('/assets/images/edit-8354.jpg');
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 30px;
   height: 60px;
   width: 40%;
   margin-left: 30%;
   margin-right: 30%;
   display: block;
   text-align: center;
-  padding-top: 15px;
   border-radius: 15px;
   color: rgba(255, 114, 96, 1);
   text-decoration: none;
   background-position: center;
+  border-style: solid;
+  border-color: rgba(18, 151, 147, 1);
+  border-width: 5px
 }
 .profile-picture {
   height:150px;
