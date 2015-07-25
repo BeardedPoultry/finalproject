@@ -211,8 +211,9 @@ button {
   .nature-page-photo,
   .main-index,
   .maternity-img {
-    width: 757px;
-    height: 506px;
+    /*width: 757px;*/
+    height: 60%;
+    width: 75%;
     background-color: rgba(255, 245, 195, 1);
     margin-left: 12.5%;
     margin-right: 12.5%;
@@ -469,8 +470,8 @@ button {
   }
   .login-screen {
     text-align: center;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: 115px;
     border-color: rgba(86, 54, 31, .5);
     border-width: 5px;

@@ -10,6 +10,7 @@ export default Ember.Route.extend({
         // this.get('session').authenticate('authenticator:parse-token', {
         //   sessionToken: user.get('sessionToken')
         // });
+        alert("Thank you, I will get back to you shortly.");
       }.bind(this));
     }
   }
